@@ -1,0 +1,321 @@
+@charset "utf-8";
+.container {
+	width: 1024px;
+	height: 614.4px;
+	background-image: url("../images/game_bg_2_hd.jpg");
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+.fireGoal{
+	width: 1024px;
+	height: 580px;
+	position: absolute;
+	background: none;
+	z-index: 2000;
+}
+body {
+	background-color: black;
+}
+.bottom-bar {
+	width: 765px;
+	height: 72px;
+	background-image: url("../images/bottom-bar.png");
+	position: absolute;
+	z-index: 999;
+	bottom: 0px;
+	left: 130px;
+}
+.cannon_minus_left{
+	width: 44px;
+	height: 31px;
+	background-image: url("../images/cannon_minus.png");
+	/*border: 1px solid red;*/
+	position: absolute;
+	bottom: 0px;
+	left: 470px;
+	z-index: 1000;
+}
+.cannon_minus_right{
+	width: 44px;
+	height: 31px;
+	background: url("../images/cannon_plus.png") no-repeat;
+	/*border: 1px solid red;*/
+	position: absolute;
+	bottom: 0px;
+	left: 610px;
+	z-index: 1000;
+}
+.shark1 {
+	width: 502px;
+	height: 216px;
+	background: url("../images/shark1.png") -6px -34px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+}
+.fish1 {
+	width: 56px;
+	height: 40px;
+	background: url("../images/fish1.png") -2px 3px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+}
+.fish2 {
+	width: 75px;
+	height: 62px;
+	background: url("../images/fish2.png") -3px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+}
+.fish3 {
+	width: 72px;
+	height: 54px;
+	background: url("../images/fish3.png") -3px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+}
+.fish4 {
+	width: 80px;
+	height: 54px;
+	background: url("../images/fish4.png") 0px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+}
+.fish5 {
+	width: 120px;
+	height: 93px;
+	background: url("../images/fish5.png") -11px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+}
+.fish6 {
+	width: 101px;
+	height: 89px;
+	background: url("../images/fish6.png") -11px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+}
+.fish10 {
+	width: 175px;
+	height: 185px;
+	background: url("../images/fish10.png") -11px 0px no-repeat;
+	transition: transform 0.5s linear;
+	position: absolute;
+}
+.cannon1{
+	width: 74px;
+	height: 70px;
+	background: url("../images/cannon1.png") 0px 0px no-repeat;
+	z-index: 1200;
+	position: absolute;
+}
+.cannon2{
+	width: 74px;
+	height: 70px;
+	background: url("../images/cannon2.png") 0px 0px no-repeat;
+	z-index: 1200;
+	position: absolute;
+}
+.cannon3{
+	width: 74px;
+	height: 73px;
+	background: url("../images/cannon3.png") 0px 0px no-repeat;
+	z-index: 1200;
+	position: absolute;
+}
+.cannon4{
+	width: 74px;
+	height: 79px;
+	background: url("../images/cannon4.png") 0px 0px no-repeat;
+	z-index: 1200;
+	position: absolute;
+}
+.cannon5{
+	width: 74px;
+	height: 79px;
+	background: url("../images/cannon5.png") 0px 0px no-repeat;
+	z-index: 1200;
+	position: absolute;
+}
+.cannon6{
+	width: 74px;
+	height: 84px;
+	background: url("../images/cannon6.png") 0px 0px no-repeat;
+	z-index: 1200;
+	position: absolute;
+}
+.cannon7{
+	width: 74px;
+	height: 90px;
+	background: url("../images/cannon7.png") 0px 0px no-repeat;
+	z-index: 1200;
+	position: absolute;
+}
+.bullet1{
+	width: 24px;
+	height: 26px;
+	position: absolute;
+	z-index: 1000;
+	background: url("../images/bullet1.png") 0px 0px no-repeat;
+}
+
+.bullet2{
+	width: 25px;
+	height: 29px;
+	position: absolute;
+	z-index: 1000;
+	background: url("../images/bullet2.png") 0px 0px no-repeat;
+}
+.bullet2{
+	width: 25px;
+	height: 29px;
+	position: absolute;
+	z-index: 1000;
+	background: url("../images/bullet2.png") 0px 0px no-repeat;
+}
+.bullet3{
+	width: 27px;
+	height: 31px;
+	position: absolute;
+	z-index: 1000;
+	background: url("../images/bullet3.png") 0px 0px no-repeat;
+}
+.bullet4{
+	width: 29px;
+	height: 33px;
+	position: absolute;
+	z-index: 1000;
+	background: url("../images/bullet4.png") 0px 0px no-repeat;
+}
+.bullet5{
+	width: 30px;
+	height: 34px;
+	position: absolute;
+	z-index: 1000;
+	background: url("../images/bullet5.png") 0px 0px no-repeat;
+}
+.bullet6{
+	width: 31px;
+	height: 35px;
+	position: absolute;
+	z-index: 1000;
+	background: url("../images/bullet6.png") 0px 0px no-repeat;
+}
+.bullet7{
+	width: 32px;
+	height: 38px;
+	position: absolute;
+	z-index: 1000;
+	background: url("../images/bullet7.png") 0px 0px no-repeat;
+}
+.web0{
+	width: 116px;
+	height: 118px;
+	background: url("../images/web1.png") 0px 0px no-repeat;
+	position: absolute;
+	z-index: 1500;
+}
+.web1{
+	width: 137px;
+	height: 142px;
+	background: url("../images/web2.png") 0px 0px no-repeat;
+	position: absolute;
+	z-index: 1500;
+}
+.web2{
+	width: 156px;
+	height: 162px;
+	background: url("../images/web3.png") 0px 0px no-repeat;
+	position: absolute;
+	z-index: 1500;
+}
+.web3{
+	width: 180px;
+	height: 174px;
+	background: url("../images/web4.png") 0px 0px no-repeat;
+	position: absolute;
+	z-index: 1500;
+}
+.web4{
+	width: 163px;
+	height: 155px;
+	background: url("../images/web5.png") 0px 0px no-repeat;
+	position: absolute;
+	z-index: 1500;
+}
+.web5{
+	width: 191px;
+	height: 181px;
+	background: url("../images/web6.png") 0px 0px no-repeat;
+	position: absolute;
+	z-index: 1500;
+}
+.web6{
+	width: 242px;
+	height: 244px;
+	background: url("../images/web7.png") 0px 0px no-repeat;
+	position: absolute;
+	z-index: 1500;
+}
+.coinText{
+	width: 36px;
+	height: 50px;
+	background: url("../images/coinText.png") 0px 0px no-repeat;
+	float: left;
+	/*position: absolute;*/
+	/*z-index: 3000;*/
+}
+.showMoney5{
+	width: 18px;
+	height: 21px;
+	background: url("../images/number_black.png") 0px 0px no-repeat;
+	position: absolute;
+	bottom: 6px;
+	left:265px;
+	z-index: 2000;
+}
+.showMoney4{
+	width: 18px;
+	height: 21px;
+	background: url("../images/number_black.png") 0px 0px no-repeat;
+	position: absolute;
+	bottom: 6px;
+	left:241px;
+	z-index: 2000;
+}
+.showMoney3{
+	width: 18px;
+	height: 21px;
+	background: url("../images/number_black.png") 0px 0px no-repeat;
+	position: absolute;
+	bottom: 6px;
+	left:218px;
+	z-index: 2000;
+}
+.showMoney2{
+	width: 18px;
+	height: 21px;
+	background: url("../images/number_black.png") 0px 0px no-repeat;
+	position: absolute;
+	bottom: 6px;
+	left:196px;
+	z-index: 2000;
+}
+.showMoney1{
+	width: 18px;
+	height: 21px;
+	background: url("../images/number_black.png") 0px 0px no-repeat;
+	position: absolute;
+	bottom: 6px;
+	left:172px;
+	z-index: 2000;
+}
+.showMoney0{
+	width: 18px;
+	height: 21px;
+	background: url("../images/number_black.png") 0px 0px no-repeat;
+	position: absolute;
+	bottom: 6px;
+	left:149px;
+	z-index: 2000;
+}

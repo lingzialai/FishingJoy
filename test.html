@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .test{
+            width: 74px;
+            height: 100px;
+            background: url("../fishing/images/coinText.png") no-repeat;
+            background-position-x: 0px;
+            border: 1px solid red;
+            position: absolute;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="test"></div>
+</body>
+<script>
+//    (function(){alert(123)}());
+//    (function(){alert(1234)})();
+//    var i = function(){alert(1)}();
+    true && function(){alert(1)}();
+    0,function(){alert(1)}();
+
+    function foo(){alert(345)}();
+</script>
+</html>
